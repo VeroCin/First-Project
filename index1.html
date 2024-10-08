@@ -13,18 +13,18 @@
   <body>
 
      <div class="container text-center">
-      <button class="btn btn-outline-danger" id="buton" onclick="changeColor()">ClickMe</button>
+      <button class="btn btn-outline-danger" id = "buton" onclick="changeColor()">ClickMe</button>
      </div>
 
      <script>                                                        
-      var btnToggle = 0;
+      var countClick = 0;
       var colorNewBtn = document.getElementById("buton");
       function changeColor(){
 	var colorList = ["red","yellow","green"];
-        colorNewBtn.style.backgroundColor = colorList[btnToggle];
-        ++btnToggle;
-        if (btnToggle === colorList.length){
-          btnToggle = 0;
+        colorNewBtn.style.backgroundColor = colorList[countClick];
+        ++countClick;
+        if (countClick === colorList.length){
+          countClick = 0;
         }
       }
      </script>
