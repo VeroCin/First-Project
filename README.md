@@ -1,2 +1,2 @@
-# Primul-meu-proiect
-primul meu proiect
+# First Project
+first project
