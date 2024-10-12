@@ -1,10 +1,10 @@
-var countClick = 0;
-      var colorNewBtn = document.getElementById("buton");
-      function changeColor(){
-	var colorList = ["red","yellow","green"];
-        colorNewBtn.style.backgroundColor = colorList[countClick];
-        ++countClick;
-        if (countClick === colorList.length){
-          countClick = 0;
-        }
-      }
+let countClick = 0;
+let colorNewBtn = document.getElementById("buton");
+function changeColor() {
+  let colorList = ["red","yellow","green"];
+  colorNewBtn.style.backgroundColor = colorList[countClick];
+  ++countClick;
+  if (countClick === colorList.length){
+    countClick = 0;
+  }
+}
