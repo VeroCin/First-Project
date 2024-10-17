@@ -1,4 +1,5 @@
 let countClick = 0;
+let const int TEN_THOUSAND = 10000;
 let colorNewBtn = document.getElementById("buton");
 
 function changeColor() {
@@ -9,4 +10,5 @@ function changeColor() {
 		countClick = 0;
 	}
 }
-let myInterval = setInterval(changeColor, 10000);
+
+let myInterval = setInterval(changeColor, TEN_THOUSAND);
