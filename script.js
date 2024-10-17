@@ -1,5 +1,5 @@
 let countClick = 0;
-let const int TEN_THOUSAND = 10000;
+const TEN_THOUSAND = 10000;
 let colorNewBtn = document.getElementById("buton");
 
 function changeColor() {
